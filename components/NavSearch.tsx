@@ -1,8 +1,9 @@
 "use client";
-import { Input } from "./ui/input";
-import { useSearchParams, useRouter } from "next/navigation";
-import { useDebouncedCallback } from "use-debounce";
+
 import { useState, useEffect } from "react";
+import { useDebouncedCallback } from "use-debounce";
+import { Input } from "./ui/input"; // Your input component
+import { useSearchParams, useRouter } from "next/navigation";
 
 function NavSearch() {
   const searchParams = useSearchParams();
@@ -24,18 +25,20 @@ function NavSearch() {
     if (currentSearch !== search) {
       setSearch(currentSearch || "");
     }
-  }, [searchParams, search]);
+  }, [searchParams]);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setSearch(value); // Update state immediately for immediate feedback
+    handleSearch(value); // Call debounced function
+  };
 
   return (
     <Input
       type='search'
       placeholder='Caută o mașină...'
       className='max-w-xs dark:bg-muted'
-      onChange={(e) => {
-        const value = e.target.value;
-        setSearch(value);
-        handleSearch(value);
-      }}
+      onChange={handleChange}
       value={search}
     />
   );
