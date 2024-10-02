@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Mercedes Sprinter 2023",
+    "brand": "mercedes",
+    "year": 2023,
+    "price": "variabil",
+    "transmission": "manuală",
+    "featured": false,
+    "image": "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarsImg/Sprinter%202023.jpeg"
+  },
+  {
+    "name": "Mercedes Sprinter 2022",
+    "brand": "mercedes",
+    "year": 2022,
+    "price": "variabil",
+    "transmission": "manuală",
+    "featured": false,
+    "image": "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarsImg/Sprinter%202022%20-%2019%20locuri.jpeg"
+  },
+  {
+    "name": "Skoda Octavia 2023",
+    "brand": "skoda",
+    "year": 2023,
+    "price": "50€ / zi",
+    "transmission": "automată",
+    "featured": true,
+    "image": "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarsImg/Octavia%202023.jpeg"
+  },
+  {
+    "name": "Skoda Octavia 2018",
+    "brand": "skoda",
+    "year": 2018,
+    "price": "30€ / zi",
+    "transmission": "manuală",
+    "featured": false,
+    "image": "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarsImg/Octavia2018.jpeg"
+  },
+  {
+    "name": "Skoda Octavia 2017",
+    "brand": "skoda",
+    "year": 2017,
+    "price": "30€ / zi",
+    "transmission": "manuală",
+    "featured": false,
+    "image": "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarsImg/Octavia2018.jpeg"
+  },
+  {
+    "name": "Skoda Fabia 2021",
+    "brand": "skoda",
+    "year": 2021,
+    "price": "20€ / zi",
+    "transmission": "manuală",
+    "featured": true,
+    "image": "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarsImg/Skoda%20Fabia.jpeg"
+  },
+  {
+    "name": "Skoda Kodiaq 2022",
+    "brand": "skoda",
+    "year": 2022,
+    "price": "70€ / zi",
+    "transmission": "automată",
+    "featured": true,
+    "image": "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarsImg/Skoda%20Kodiaq%202022.jpg"
+  },
+  {
+    "name": "Volkswagen Tiguan 2018",
+    "brand": "volkswagen",
+    "year": 2018,
+    "price": "40€ / zi",
+    "transmission": "manuală",
+    "featured": false,
+    "image": "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarsImg/VWTiguan.jpeg"
+  },
+  {
+    "name": "Volkswagen Touran 2018",
+    "brand": "volkswagen",
+    "year": 2018,
+    "price": "40€ / zi",
+    "transmission": "automată",
+    "featured": false,
+    "image": "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarsImg/VWTouran.jpeg"
+  },
+  {
+    "name": "Volkswagen Passat 2018",
+    "brand": "volkswagen",
+    "year": 2018,
+    "price": "40€ / zi",
+    "transmission": "automată",
+    "featured": false,
+    "image": "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarsImg/VWPassat.jpeg"
+  },
+  {
+    "name": "Mercedes Vito 2020",
+    "brand": "mercedes",
+    "year": 2020,
+    "price": "100€ / zi",
+    "transmission": "automată",
+    "featured": false,
+    "image": "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarsImg/MercedesVito.jpeg"
+  },
+  {
+    "name": "Mercedes Vito 2023",
+    "brand": "mercedes",
+    "year": 2023,
+    "price": "100€ / zi",
+    "transmission": "automată",
+    "featured": false,
+    "image": "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarsImg/Mercedes%20Vito%202022.jpeg"
+  },
+  {
+    "name": "Mercedes Vito 2024",
+    "brand": "mercedes",
+    "year": 2024,
+    "price": "100€ / zi",
+    "transmission": "automată",
+    "featured": false,
+    "image": "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarsImg/MercedesVito.jpeg"
+  }
+]

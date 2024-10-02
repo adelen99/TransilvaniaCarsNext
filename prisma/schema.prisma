@@ -1,0 +1,20 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Car {
+  id           String  @id @default(uuid()) 
+  name         String
+  brand        String
+  year         Int
+  price        String
+  transmission String
+  image        String
+  featured     Boolean 
+}
