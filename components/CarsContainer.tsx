@@ -1,13 +1,7 @@
 import CarCard from "./CarCard";
 import { Car } from "@prisma/client";
 
-async function CarsContainer({
-  cars,
-  search,
-}: {
-  cars: Car[];
-  search: string;
-}) {
+async function CarsContainer({ cars }: { cars: Car[]; search: string }) {
   const totalCars = cars.length;
   return (
     <div>

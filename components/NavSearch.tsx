@@ -24,7 +24,7 @@ function NavSearch() {
     if (currentSearch !== search) {
       setSearch(currentSearch || "");
     }
-  }, [searchParams]);
+  }, [searchParams, search]);
 
   return (
     <Input
