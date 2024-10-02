@@ -5,6 +5,7 @@ import Container from "@/globals/Container";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Providers from "./providers";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           <Container className='py-4 md:py-8 lg:py-16'>{children}</Container>
+          <Footer />
         </Providers>
       </body>
     </html>

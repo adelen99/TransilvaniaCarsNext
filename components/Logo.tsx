@@ -1,16 +1,22 @@
+import { Alfa_Slab_One } from "next/font/google";
 import Link from "next/link";
-import { Button } from "./ui/button";
 import { FaCar } from "react-icons/fa";
+
+const roboto = Alfa_Slab_One({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 function Logo() {
   return (
     <div>
       <Link href='/'>
         <span className='flex items-center space-x-2'>
-          <span className='"scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl"'>
+          <span
+            className={`${roboto.className} scroll-m-20 text-3xl  tracking-wide lg:text-4xl`}>
             TransilvaniaCars
           </span>
-          <FaCar className='w-6 h-6' />
+          <FaCar className='w-8 h-8' />
         </span>
       </Link>
     </div>

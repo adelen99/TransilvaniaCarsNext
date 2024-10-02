@@ -4,13 +4,8 @@ import { FaClipboardList } from "react-icons/fa";
 function RentalConditions() {
   return (
     <section className='p-4 mt-4 grid md:grid-cols-1 lg:grid-cols-2'>
-      {" "}
-      {/* Adjusted mt-4 */}
-      <div className='flex justify-center items-center'>
-        {" "}
-        {/* Centering the icon */}
-        <FaClipboardList className='hidden md:block lg:w-1/2 lg:h-auto' />{" "}
-        {/* Adjusted size */}
+      <div className='flex justify-center items-center '>
+        <FaClipboardList className='hidden md:block lg:w-1/2 lg:h-auto' />
       </div>
       <div className='text-center'>
         <h2 className='scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight'>

@@ -25,3 +25,13 @@ export const images: CarouselImage[] = [
     height: 400,
   },
 ];
+
+type aboutImage = {
+  src: string;
+  alt: string;
+};
+
+export const aboutImage: aboutImage = {
+  src: "https://owupujvwaogwwojbsryt.supabase.co/storage/v1/object/public/CarouselImages/about-us.jpg",
+  alt: "aboutUs",
+};
