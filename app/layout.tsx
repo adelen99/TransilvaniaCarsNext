@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Providers from "./providers";
 import Footer from "@/components/Footer";
+import { Suspense } from "react"; // Import Suspense
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,10 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <Providers>
-          <Navbar />
+          {/* Wrap Navbar in Suspense if it uses any client-side hooks */}
+          <Suspense fallback={<div>Loading Navbar...</div>}>
+            <Navbar />
+          </Suspense>
           <Container className='py-4 md:py-8 lg:py-16'>{children}</Container>
           <Footer />
         </Providers>
