@@ -17,17 +17,18 @@ const AboutUsCard = () => {
           noi și mai inovatoare modele pe piața din România.
         </p>
         <p className='leading-7 [&:not(:first-child)]:mt-6'>
-          De la sedanuri elegante la SUV-uri robuste, avem o gamă variată de
-          vehicule care se potrivesc nevoilor și preferințelor fiecărui client.
-          Fiecare mașină din flota noastră este atent selectată, testată și
-          întreținută pentru a asigura cele mai înalte standarde de calitate.
+          De la sedanuri elegante la SUV-uri robuste și microbuze confortabile,
+          avem o gamă variată de vehicule care se potrivesc nevoilor și
+          preferințelor fiecărui client. Fiecare mașină din flota noastră este
+          atent selectată, testată și întreținută pentru a asigura cele mai
+          înalte standarde de calitate.
         </p>
 
         <p className='leading-7 [&:not(:first-child)]:mt-6'>
           Misiunea noastră este de a transforma fiecare călătorie într-o
           experiență memorabilă. Indiferent dacă ești în căutarea unui vehicul
-          pentru familia ta sau pentru afacerea ta, suntem aici să te ajutăm să
-          găsești mașina perfectă.
+          pentru familia ta, pentru afacerea ta sau pentru transportul de grup,
+          suntem aici să te ajutăm să găsești mașina perfectă.
         </p>
         <h3 className='font-semibold mt-4'>Valorile noastre:</h3>
         <ul className='my-6 ml-6 list-disc [&>li]:mt-2'>

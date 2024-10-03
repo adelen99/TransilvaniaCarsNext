@@ -12,21 +12,21 @@ const servicesSchema = z.array(serviceSchema);
 
 const services = [
   {
-    title: "Mașini Economice",
+    title: "Transport pentru Evenimente",
     description:
-      "Alegeți dintr-o gamă de mașini economice, perfecte pentru oraș și excursii scurte.",
-    icon: <GiCarKey />, // Icon as JSX
+      "Organizați transportul pentru evenimente speciale, cum ar fi nunți sau petreceri, cu mașini elegante și confortabile.",
+    icon: <FaCarSide />, // Icon as JSX
   },
   {
-    title: "Mașini de Lux",
+    title: "Închirieri pe Termen Lung",
     description:
-      "Răsfățați-vă cu vehiculele noastre de lux pentru o experiență premium.",
-    icon: <FaCarSide />,
+      "Beneficiați de oferte atractive pentru închirieri pe termen lung, perfecte pentru afaceri sau călătorii prelungite.",
+    icon: <GiCarKey />,
   },
   {
     title: "Prețuri Avantajoase",
     description:
-      "Oferim prețuri competitive și flexibile pentru toate mașinile noastre.",
+      "Oferim prețuri competitive și oferte speciale, asigurând cea mai bună valoare pentru fiecare tip de mașină disponibil.",
     icon: <GiMoneyStack />,
   },
 ];
