@@ -12,23 +12,23 @@ function RentalConditions() {
           Condiții de Închiriere
         </h2>
         <ul className='mt-4 space-y-2'>
-          <li className='p-4 border rounded-lg shadow-md'>
+          <li className='p-4 border  shadow-md'>
             <strong>Vârstă minimă:</strong> Trebuie să aveți cel puțin 21 de ani
             pentru a închiria o mașină.
           </li>
-          <li className='p-4 border rounded-lg shadow-md'>
+          <li className='p-4 border  shadow-md'>
             <strong>Documente necesare:</strong> Este necesar un permis de
             conducere valabil și un act de identitate.
           </li>
-          <li className='p-4 border rounded-lg shadow-md'>
+          <li className='p-4 border  shadow-md'>
             <strong>Depozit:</strong> Se va percepe un depozit de securitate
             care va fi returnat la finalizarea închirierii.
           </li>
-          <li className='p-4 border rounded-lg shadow-md'>
+          <li className='p-4 border  shadow-md'>
             <strong>Asigurare:</strong> Asigurarea este inclusă în prețul de
             închiriere, dar vă recomandăm să verificați opțiunile suplimentare.
           </li>
-          <li className='p-4 border rounded-lg shadow-md'>
+          <li className='p-4 border  shadow-md'>
             <strong>Politica de anulare:</strong> Anulările cu cel puțin 48 de
             ore înainte de închiriere sunt gratuite.
           </li>

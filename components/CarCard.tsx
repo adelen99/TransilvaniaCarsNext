@@ -8,9 +8,9 @@ import { Car } from "@prisma/client";
 
 function CarCard({ cars }: { cars: Car[] }) {
   return (
-    <div className='container mx-auto px-16'>
+    <div className='container mx-auto px-2  md:px-12 '>
       <h1 className='text-2xl font-bold mb-6'>Mașinile noastre</h1>
-      <div className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'>
+      <div className='grid gap-6 md:grid-cols-2 lg:grid-cols-3 '>
         {cars.map((car) => (
           <Card key={car.id} className='overflow-hidden m-2 '>
             <Image

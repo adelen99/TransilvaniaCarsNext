@@ -6,10 +6,8 @@ export default function ContactPage() {
   return (
     <div className='container mx-auto max-w-xl p-6'>
       <Card className='shadow-lg p-6 rounded-lg dark:bg-black bg-gray-100'>
-        {" "}
-        {/* Adăugat padding și rounded */}
         <CardHeader>
-          <h1 className='text-3xl font-bold mb-8 text-center'>
+          <h1 className='text-2xl md:text-3xl font-bold mb-8 text-center'>
             Contactează-ne
           </h1>
         </CardHeader>

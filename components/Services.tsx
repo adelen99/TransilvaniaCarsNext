@@ -42,14 +42,12 @@ if (!result.success) {
 const Services = () => {
   return (
     <section className='p-4'>
-      <h2 className='scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0 text-center '>
+      <h2 className='scroll-m-20 border-b mb-4 pb-2 text-3xl font-semibold tracking-tight first:mt-0 text-center '>
         Serviciile Noastre
       </h2>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
         {services.map((service, index) => (
-          <div
-            key={index}
-            className='p-6 border rounded-lg shadow-md text-center'>
+          <div key={index} className='p-6 border-2  shadow-md text-center'>
             <div className='mb-4 text-4xl text-primary'>{service.icon}</div>
             <h3 className='text-xl font-semibold mb-2'>{service.title}</h3>
             <p className='text-muted-foreground'>{service.description}</p>

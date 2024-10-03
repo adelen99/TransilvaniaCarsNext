@@ -13,17 +13,19 @@ type SingleCarCardProps = {
 function SingleCarCard({ car }: SingleCarCardProps) {
   return (
     <div className='relative container mx-auto px-4'>
-      {/* Butonul de back plasat la stânga */}
-      <Link href='/produse'>
-        <Button
-          variant='default'
-          className='absolute top-2  md:left-8  lg:top-0 ml-8 flex items-center gap-2 text-lg'>
-          <FiArrowLeft className='w-6 h-6' /> {/* Icon-ul pentru back */}
-        </Button>
-      </Link>
+      <div className=' grid justify-start  gap-4 mb-4 '>
+        <Link href='/produse'>
+          <Button
+            variant='default'
+            className='flex items-center gap-2 font-semibold text-md md:text-lg'>
+            <FiArrowLeft className='w-4 h-4 md:w-6 md:h-6' />
+            <span>Înapoi la lista de mașini</span>
+          </Button>
+        </Link>
+      </div>
 
       {/* Cardul mașinii */}
-      <Card className='max-w-2xl mx-auto  shadow-lg'>
+      <Card className='max-w-2xl mx-auto shadow-lg'>
         {/* Imaginea mașinii */}
         <Image
           src={car.image}
@@ -40,7 +42,7 @@ function SingleCarCard({ car }: SingleCarCardProps) {
         </CardHeader>
 
         {/* Conținutul Cardului */}
-        <CardContent className=' space-y-6 capitalize'>
+        <CardContent className='space-y-6 capitalize'>
           <div className='flex justify-between'>
             <span className='leading-7 [&:not(:first-child)]:mt-6'>Brand:</span>
             <Badge variant='secondary' className='text-base'>
