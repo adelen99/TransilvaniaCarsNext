@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className={`${inter.className} min-h-screen`}>
         <Providers>
           {/* Wrap Navbar in Suspense if it uses any client-side hooks */}
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div>Încărcare...</div>}>
             <Navbar />
           </Suspense>
           <Container className='py-4 md:py-8 lg:py-16 flex-grow'>

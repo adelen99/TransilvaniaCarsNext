@@ -17,7 +17,7 @@ export default async function FeaturedCarsCard() {
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3'>
+        <div className='grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
           {cars.map((car) => (
             <Card key={car.id} className='overflow-hidden'>
               <Image
